@@ -147,7 +147,6 @@ export const WebgiComp = () => {
 
       const viewer = new ViewerApp({
         canvas: canvasRef.current || undefined,
-        // isAntialiased: true,
       });
 
       viewerRef.current = viewer;
